@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"></meta>
+<title>Heap walker - Incoming References</title>
+<style>body, td, th, p, ul, ol, div {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;}</style></head>
+<body>
+<h2>Heap walker - Incoming References</h2>
+<table border="0">
+<tr><td><b>Session:</b></td> <td>Local attach</td></tr>
+<tr><td><b>Time of export:</b></td> <td>Friday, May 19, 2017 10:05:38 AM MDT</td></tr>
+<tr><td><b>JVM time:</b></td> <td>35:25</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+<td><b>Current object set:&nbsp;</b></td> <td>1 instance of akka.cluster.routing.ClusterRouterGroup</td></tr>
+<td><b>Selection steps:&nbsp;</b></td> <td><a href="#selection">See below</a></td></tr>
+</table>
+
+<hr size="1"/><br />
+<style>th {border:1px solid #BBBBBB;padding: 3px; margin-bottom: 3px}
+td {whitespace:nowrap; padding: 0 3px}</style><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+<tr><th width="40">&nbsp;</th><th>Object</th><th>Retained size</th><th>Shallow Size</th><th>Allocation Time (h:m:s)</th></tr><tr valign="top">
+<td nowrap="nowrap"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/object_16.png" /></td><td>akka.<wbr />cluster.<wbr />routing.<wbr />ClusterRouterGroup <font color="#808080">(0xc87a7)</font></td><td align="right">616 bytes</td><td align="right">24 bytes</td><td align="right"><font color="#808080">n/<wbr />a</font></td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_default_16.png" />&nbsp;<b>routerConfig</b> of akka.<wbr />actor.<wbr />Deploy <font color="#808080">(0xc87a6)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>deploy</b> of akka.<wbr />actor.<wbr />Props <font color="#808080">(0xc87a5)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>props</b> of akka.<wbr />routing.<wbr />RoutedActorRef <font color="#808080">(declared by akka.<wbr />actor.<wbr />RepointableActorRef)</font> <font color="#808080">(0xc87a4)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of akka.<wbr />actor.<wbr />ActorRef[ ] <font color="#808080">(0x1f1b98)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>values</b> of akka.<wbr />remote.<wbr />serialization.<wbr />ActorRefResolveCache <font color="#808080">(declared by akka.<wbr />remote.<wbr />artery.<wbr />LruBoundedCache)</font> <font color="#808080">(0xc3f04)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>value</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry <font color="#808080">(0xc3f01)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry[ ] <font color="#808080">(0x1f1b96)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>table</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap <font color="#808080">(0xc3efc)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>threadLocals</b> of akka.<wbr />dispatch.<wbr />MonitorableThreadFactory$<wbr />AkkaForkJoinWorkerThread <font color="#808080">(declared by java.<wbr />lang.<wbr />Thread)</font> <font color="#808080">(0xc3efa)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool.<wbr />idleAwaitWork(scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool$<wbr />WorkQueue, long, long)<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinWorkerThread.<wbr />run()<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;thread object<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_default_16.png" />&nbsp;<b>routerConfig</b> of akka.<wbr />routing.<wbr />RoutedActorCell <font color="#808080">(0xc87b2)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>_<wbr />cellDoNotCallMeDirectly</b> of akka.<wbr />routing.<wbr />RoutedActorRef <font color="#808080">(declared by akka.<wbr />actor.<wbr />RepointableActorRef)</font> <font color="#808080">(0xc87a4)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of akka.<wbr />actor.<wbr />ActorRef[ ] <font color="#808080">(0x1f1b98)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>values</b> of akka.<wbr />remote.<wbr />serialization.<wbr />ActorRefResolveCache <font color="#808080">(declared by akka.<wbr />remote.<wbr />artery.<wbr />LruBoundedCache)</font> <font color="#808080">(0xc3f04)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>value</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry <font color="#808080">(0xc3f01)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry[ ] <font color="#808080">(0x1f1b96)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>table</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap <font color="#808080">(0xc3efc)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>threadLocals</b> of akka.<wbr />dispatch.<wbr />MonitorableThreadFactory$<wbr />AkkaForkJoinWorkerThread <font color="#808080">(declared by java.<wbr />lang.<wbr />Thread)</font> <font color="#808080">(0xc3efa)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool.<wbr />idleAwaitWork(scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool$<wbr />WorkQueue, long, long)<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinWorkerThread.<wbr />run()<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;thread object<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_default_16.png" />&nbsp;<b>routerConfig</b> of akka.<wbr />routing.<wbr />RoutedActorCell$<wbr />RouterActorCreator <font color="#808080">(0xc87af)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>_<wbr />producer</b> of akka.<wbr />actor.<wbr />Props <font color="#808080">(0xc87a5)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>props</b> of akka.<wbr />routing.<wbr />RoutedActorRef <font color="#808080">(declared by akka.<wbr />actor.<wbr />RepointableActorRef)</font> <font color="#808080">(0xc87a4)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of akka.<wbr />actor.<wbr />ActorRef[ ] <font color="#808080">(0x1f1b98)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>values</b> of akka.<wbr />remote.<wbr />serialization.<wbr />ActorRefResolveCache <font color="#808080">(declared by akka.<wbr />remote.<wbr />artery.<wbr />LruBoundedCache)</font> <font color="#808080">(0xc3f04)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>value</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry <font color="#808080">(0xc3f01)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry[ ] <font color="#808080">(0x1f1b96)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>table</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap <font color="#808080">(0xc3efc)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>threadLocals</b> of akka.<wbr />dispatch.<wbr />MonitorableThreadFactory$<wbr />AkkaForkJoinWorkerThread <font color="#808080">(declared by java.<wbr />lang.<wbr />Thread)</font> <font color="#808080">(0xc3efa)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool.<wbr />idleAwaitWork(scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool$<wbr />WorkQueue, long, long)<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinWorkerThread.<wbr />run()<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_bar_18.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;thread object<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_default_16.png" />&nbsp;element of java.<wbr />lang.<wbr />Object[ ] <font color="#808080">(0x1f2012)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>display0</b> of scala.<wbr />collection.<wbr />immutable.<wbr />Vector <font color="#808080">(0xc87ae)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>args</b> of akka.<wbr />actor.<wbr />Props <font color="#808080">(0xc87a5)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>props</b> of akka.<wbr />routing.<wbr />RoutedActorRef <font color="#808080">(declared by akka.<wbr />actor.<wbr />RepointableActorRef)</font> <font color="#808080">(0xc87a4)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of akka.<wbr />actor.<wbr />ActorRef[ ] <font color="#808080">(0x1f1b98)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>values</b> of akka.<wbr />remote.<wbr />serialization.<wbr />ActorRefResolveCache <font color="#808080">(declared by akka.<wbr />remote.<wbr />artery.<wbr />LruBoundedCache)</font> <font color="#808080">(0xc3f04)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>value</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry <font color="#808080">(0xc3f01)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;element of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap$<wbr />Entry[ ] <font color="#808080">(0x1f1b96)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>table</b> of java.<wbr />lang.<wbr />ThreadLocal$<wbr />ThreadLocalMap <font color="#808080">(0xc3efc)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_minus_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" />&nbsp;<b>threadLocals</b> of akka.<wbr />dispatch.<wbr />MonitorableThreadFactory$<wbr />AkkaForkJoinWorkerThread <font color="#808080">(declared by java.<wbr />lang.<wbr />Thread)</font> <font color="#808080">(0xc3efa)</font><br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool.<wbr />idleAwaitWork(scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinPool$<wbr />WorkQueue, long, long)<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_tee_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;java stack of party1-default-STAGE-akka.<wbr />remote.<wbr />default-remote-dispatcher-407 in scala.<wbr />concurrent.<wbr />forkjoin.<wbr />ForkJoinWorkerThread.<wbr />run()<br />
+</td>
+</tr>
+<tr valign="top">
+<td nowrap="nowrap" colspan="5"><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/pixel_transparent_1.gif" /><img height="18" width="18" border="0" align="left" hspace="0" vspace="0" src="
+jprofiler_images/tree/menu_corner_18.gif" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/incoming_single_path_16.png" /><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/root_16.png" />&nbsp;thread object<br />
+</td>
+</tr>
+</table><br /><br /><a name="selection"><hr size="1"><br />
+<table border="0" cellpadding="8"><tr><td valign="top"><b>Selection step 3 :</b></td><td>Incoming reference in the tree of incoming references<br /><table border="0" cellpadding="0">
+<tr><td valign="top">Reference chain:&nbsp;</td><td><img height="16" width="16" border="0" align="absmiddle" hspace="0" vspace="0" src="
+jprofiler_images/object_16.png" />&nbsp;  <b>akka.<wbr />cluster.<wbr />routing.<wbr />ClusterRouterGroup</b> <font color="#808080">(0xc87a7)</font><br />
+</td></tr>
+</table>
+</td></tr>
+<tr><td valign="top"><b>Selection step 2 :</b></td><td>Class<br />akka.<wbr />cluster.<wbr />routing.<wbr />ClusterRouterGroup</td></tr>
+<tr><td valign="top"><b>Selection step 1 :</b></td><td>All objects after full GC, retaining soft references<br /></td></tr>
+</table></a></body>
+</html>
